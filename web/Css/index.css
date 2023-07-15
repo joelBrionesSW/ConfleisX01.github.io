@@ -1,0 +1,47 @@
+.bg-imagen-1 {
+    background-image: url(../Img/Indexbg.webp);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.bg-green {
+    background-color:  #009B77;
+}
+
+.bg-blue {
+    background-color:  #0056A6;
+}
+
+.bg-gray {
+    background-color: #CCCCCC;
+}
+
+.bg-red {
+    background-color: #E60000;
+}
+
+.bg-alpha {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.button {
+    width: 20rem;
+    height: 4rem;
+    border: inherit;
+    background-color: #0056A6;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: white;
+    color: #0056A6;
+    border: 2px solid #0056A6;
+}
